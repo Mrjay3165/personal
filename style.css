@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+}
+
+.landing-page{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./img/landing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(192, 192, 192);
+    padding: 4% 0 0;
+    font-family:  Helvetica, sans-serif;
+    height: 100%;
+}
+
+header{
+    margin: 0 4%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h4{
+    color: white;
+    font-size: 15px;
+}
+
+.mid-text{
+    text-align: center;
+    margin: 8% auto;
+}
+
+.mid-text h1{
+    font-size: 40px;
+}
+
+button{
+    margin: 20px auto;
+    background-color: rgba(68, 246, 68, 0.836);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 13px;
+}
+
+button:hover{
+    background-color: rgba(10, 87, 10, 0.836);
+    transition: .2s;
+}
+
+.fa-brands{
+    background-color: white;
+    color: black;
+    width: 35px;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 50px;
+}
+
+.fa-solid{
+    color: rgba(68, 246, 68, 0.836);
+    font-size: 30px;
+    margin: 0 15px;
+}
+
+.fa-circle-dollar{
+    color: rgba(0, 0, 0, 0.839);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: rgba(68, 246, 68, 0.836);
+}
+
+.fa-clock-three{
+    color: rgba(0, 0, 0, 0.839);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 50px;
+    background-color: rgba(68, 246, 68, 0.836);
+}
+
+.fast{
+    padding: 2% 4%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.fast p{
+    padding: 10px 0;
+    margin: 10px;
+}
+
+.footer{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(215, 211, 211);
+    padding: 0 4%;
+    height: 100%;
+}
+
+.top h2{
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.top p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.number h2{
+    border: 2px solid rgb(68, 246, 68);
+    color: rgb(0, 184, 0);
+    width: 50px;
+    padding: 10px;
+    border-radius: 60px;
+    margin: 15px auto;
+}
+
+.number h5{
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.number p{
+    padding: 2% 8% 10%;
+    font-size: 16px;
+}
+
+.copyright{
+    background: linear-gradient(rgba(0, 0, 0, 0.889), rgba(0, 0, 0, 0.905));
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width:750px) {
+
+    .mid-text h1 {
+        font-size: 30px;
+    }
+
+    .top h2{
+        font-size: 25px;
+    }
+
+    .top p{
+        font-size: 18px;
+    }
+
+    .copyright{
+        font-size: 13px;
+    }
+}
+
+
+
+@media only screen and (max-width:420px) {
+
+    header h4{
+        font-size: 13px;
+    }
+
+    header p{
+        font-size: 11px;
+    }
+    .mid-text h1 {
+        font-size: 22px;
+    }
+
+    .fa-solid {
+        font-size: 13px;
+    }
+    .fast p{
+        font-size: 11px;
+    }    
+
+    .fa-solid{
+        font-size: 13px;
+    }
+
+    .top h2{
+        font-size: 18px;
+    }
+
+    .top p{
+        font-size: 15px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .number h2{
+        font-size: 18px;
+    }
+
+    .number h5{
+        font-size: 13px;
+    }
+
+    .number p{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+
+    .flex{
+        display: block;
+    }
+}
